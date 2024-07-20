@@ -24,6 +24,7 @@ export default function Login(isUser) {
 
   const fetchPrivilege = async () => {
     let response = await CallGETAPI("auth/priviledge");
+
     if (response.status && response?.data?.permission) {
       let permission = response?.data?.permission;
       setPermission(permission);
@@ -95,8 +96,8 @@ export default function Login(isUser) {
       ip_address: systemIp,
       source_os: os,
     };
-    let result = await CallPOSTAPI("auth/login", senData);
-
+    let response = await CallPOSTAPI("auth/login", senData);
+let result=response.data || {};
     if (result.status) {
       //  is 2FA
 
