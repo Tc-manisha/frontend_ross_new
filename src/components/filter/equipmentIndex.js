@@ -258,9 +258,11 @@ export default function index({
 
     handleDrawerClose();
 
-    const result = await CallGETAPI(
+    let result = await CallGETAPI(
       "account/get-aed-with-standalon/" + accountId
     );
+    
+ 
     if (result?.data?.status) {
       setTblsData(result);
     }

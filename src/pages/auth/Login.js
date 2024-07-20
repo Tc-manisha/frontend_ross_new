@@ -97,6 +97,7 @@ export default function Login(isUser) {
       source_os: os,
     };
     let response = await CallPOSTAPI("auth/login", senData);
+    console.log(response.data)
 let result=response.data || {};
     if (result.status) {
       //  is 2FA

@@ -426,6 +426,7 @@ export const ModalAccSiteReps = async () => {
 export const AccRepsDropDown = async () => {
   // let result = await CallGETAPI("account/site-reps-dropdown");
   let result = await CallGETAPI("account/account-reps-dropdown");
+  console.log({result})
   if (result?.status) {
     return result?.data?.data?.accountReps;
   }
@@ -464,8 +465,9 @@ export const SiteContactRepList = async () => {
 
 export const AssignContectRepList = async (id) => {
   let result = await CallGETAPI("account/assign-acc-contact-list/" + id);
+  console.log({result})
   if (result?.status) {
-    return result?.data?.accountContactList;
+    return result?.data?.data;
   }
   return false;
 };

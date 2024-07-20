@@ -142,6 +142,7 @@ const AccountDetails = ({ setShowSidebar, handleSetToken }) => {
     const accountRes = await CallGETAPI(
       `account/account_info_detail/${accountId}`
     );
+    console.log(accountRes)
     const accountData = accountRes?.data?.data?.AccountDetails;
 
     const cordinatorInfo = accountRes?.data?.data?.cordinatorInformation;
@@ -200,7 +201,7 @@ const AccountDetails = ({ setShowSidebar, handleSetToken }) => {
     const response = await CallGETAPI("get-all-documents/", accountId);
 
     if (response?.status) {
-      setDocumentData(response.data.data);
+      setDocumentData(response.data);
     }
   };
   const [aedList, setAedList] = useState([]);
@@ -211,7 +212,7 @@ const AccountDetails = ({ setShowSidebar, handleSetToken }) => {
     );
     // account/get-aed-with-standalon
     if (result?.data?.status) {
-      const aeds = result?.data?.data;
+      const aeds = result?.data
       const resultArr = [];
       for (let a1 = 0; a1 < aeds.length; a1++) {
         const aed1 = aeds[a1];
