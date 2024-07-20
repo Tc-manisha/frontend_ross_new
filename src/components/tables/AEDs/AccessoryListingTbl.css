@@ -1,0 +1,30 @@
+#acc-list-page-202 #accessory-listing-table .dx-datagrid-search-panel {
+  display: flex;
+  justify-content: flex-start;
+  width: 19.5% !important;
+  padding: 0px;
+  margin: 0px;
+}
+
+#acc-list-page-202
+  #accessory-listing-table
+  .dx-datagrid-search-panel
+  .dx-texteditor {
+  margin-right: auto; /* Push the search box to the left */
+}
+
+#acc-list-page-202 #accessory-listing-table .wrap-cell {
+  white-space: normal;
+  word-break: break-word;
+  max-height: 5.4em;
+  max-width: 26em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#acc-list-page-202 #accessory-listing-table .dx-toolbar-after {
+  float: right;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}

@@ -1,0 +1,15 @@
+#login-container{
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .row{
+        width: 40%;
+    }
+
+    .footer-btns{
+        align-items: center;
+        justify-content: space-between;
+    }
+}

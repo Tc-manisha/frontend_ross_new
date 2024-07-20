@@ -1,0 +1,94 @@
+
+#login-header{
+
+}
+
+#top-bar{
+display: flex;
+justify-content: right;
+color:#fff;
+background-color: #bf2f38;
+
+    .navbar-nav{
+        width:  100%;
+        display: flex;
+        margin:0px 10px;
+        justify-content: right;
+        background-color: #bf2f38;
+        a{
+            color: #fff;
+        }
+    }
+}
+#bottom-navbar .nav-link {
+    color:#fff;
+}
+#bottom-navbar .nav-link:hover {
+    color:#26AEE0
+}
+
+.css-ciy9n4-MuiPaper-root-MuiAppBar-root{
+    box-shadow: none;
+}
+
+#sub-header{
+    background-color: #fff;
+    // height: 55px;
+    display: flex;
+    align-items: center;
+    button{
+        padding: 0;
+        border: none;
+        &:focus{
+            border: none;
+        }
+    }
+}
+#sub-header .d-flex{
+    align-items: center;
+}
+
+#header{
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
+}
+.body-header{
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.body-section{
+    position: relative;
+    min-height: 100vh;
+}
+.body-content .MuiPaper-root{
+    margin-top: 76px;
+    background-color: #0c71c3;
+    z-index: 10;
+    padding-bottom: 85px;
+}
+
+.body-content .MuiPaper-root .nav-link,.body-content .MuiPaper-root .MuiListItemIcon-root{
+    color: #fff;
+    
+}
+.account-title{
+    color: black !important;
+    // margin-top: 10px;
+}
+.newAccountH1{
+    margin-top: 8px;
+}
+
+.content-div{
+    min-height: 76vh;
+}
+
+.css-78trlr-MuiButtonBase-root-MuiIconButton-root, .my-account-list-btn, .left-btns > .my-account-list-btn {
+    background-color: #fff !important;
+}
+
+.css-78trlr-MuiButtonBase-root-MuiIconButton-root:hover {
+    background-color: #fff !important;
+}

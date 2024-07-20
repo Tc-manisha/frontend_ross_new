@@ -1,0 +1,69 @@
+.aed-title{
+    /* font-family: 'Arimo'; */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 46px;
+    text-align: center;
+
+}
+.thread-style {
+    background-color: #aaa; /* Gray background color */
+  }
+  
+  .thread-style th,
+  .thread-style td {
+    border: 1px solid #000; /* Border style */
+
+  }
+
+/* Table.css */
+.bordered-table {
+    border-collapse: collapse;
+    border: 1px solid black; /* Border for the entire table */
+  }
+  
+  .bordered-table tr:nth-child(even) {
+    background-color: #eee; /* Light gray color for even rows */
+  }
+  
+  .bordered-table th,
+  .bordered-table td {
+    border: 1px solid black; /* Border for table cells */
+    padding: 8px;
+  }
+  
+  .bold-text {
+    font-weight: bold;
+    font-Size:25px ;
+    padding-top:15px ;
+  }
+  .container {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .transparent-button {
+    background-color: transparent;
+    color: blue;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  .pointer{
+    cursor: pointer;
+  }
+
+  .downarrow svg{
+    rotate: 90deg;
+  }
+
+  .uparrow svg{
+    rotate: 270deg;
+  }
+
+  .inside-td{
+    display: flex;
+    justify-content: space-between;;
+  }

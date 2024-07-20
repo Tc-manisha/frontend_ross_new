@@ -1,0 +1,631 @@
+.rectangleMain {
+  /* position: absolute; */
+  top: 88px;
+  left: 413px;
+  background-color: #fafafa;
+  /* width: 1280px; */
+  /* height: 2493px; */
+}
+
+.image1 {
+  /* text-decoration: none;
+  position: relative; */
+  width: 380px;
+  /* height: 35px; */
+  /* flex-shrink: 0; */
+  /* background-image: url(../../public/image-1@3x.png); */
+  /* background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top; */
+}
+.footerLogo {
+  width: 250px;
+}
+.header {
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 11px 0px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: center;
+}
+.icon,
+.polygonIcon {
+  position: relative;
+  width: 15.79px;
+  height: 18.38px;
+  flex-shrink: 0;
+}
+.polygonIcon {
+  width: 7px;
+  height: 4px;
+}
+.userAvatarDiv1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 7px;
+}
+.userAvatarDiv {
+  /* position: absolute; */
+  top: 19px;
+  left: 1203px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.searchBarFormGroup {
+  width: 224px;
+  border: 0;
+  background-color: transparent;
+  /* position: absolute; */
+  top: 14px;
+  left: 956px;
+}
+.mainHeaderDiv {
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  width: 1280px;
+  height: 57px;
+}
+.rectangleDiv {
+  position: relative;
+  border-radius: var(--br-md);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(216, 213, 213, 0.25);
+  width: 1205px;
+  height: 368px;
+  flex-shrink: 0;
+}
+.frameDiv,
+.frameDiv1 {
+  /* position: absolute; */
+  top: 131px;
+  left: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.frameDiv1 {
+  top: 525px;
+}
+.rectangleDiv2 {
+  position: relative;
+  border-radius: var(--br-md);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(216, 213, 213, 0.25);
+  width: 1205px;
+  height: 349px;
+  flex-shrink: 0;
+}
+.frameDiv2 {
+  /* position: absolute; */
+  top: 919px;
+  left: 27px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.rectangleDiv3 {
+  position: relative;
+  border-radius: var(--br-md);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(216, 213, 213, 0.25);
+  width: 1205px;
+  height: 285px;
+  flex-shrink: 0;
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+}
+.frameDiv3 {
+  /* position: absolute; */
+  top: 1294px;
+  left: 27px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.rectangleDiv4 {
+  /* position: absolute; */
+  top: 1605px;
+  left: 1232px;
+  border-radius: var(--br-md);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(216, 213, 213, 0.25);
+  width: 1205px;
+  height: 451px;
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+}
+.frameFormSelect {
+  width: 126.15%;
+  position: absolute;
+  height: 57.38%;
+  top: 41.65%;
+  right: -26.15%;
+  bottom: 0.97%;
+  left: 0;
+}
+.dropDownTitle {
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  display: inline-block;
+}
+.dropDownDiv {
+  /* position: absolute; */
+  top: 1790px;
+  left: 901px;
+}
+.dropDownDiv1,
+.dropDownDiv2,
+.newAccountIcon {
+  /* position: absolute; */
+  top: 1877px;
+  left: 640px;
+  width: 195px;
+  height: 61px;
+}
+.dropDownDiv2,
+.newAccountIcon {
+  top: 1965px;
+  left: 374px;
+}
+.newAccountIcon {
+  height: 0.67%;
+  width: 1.28%;
+  top: 3.65%;
+  right: 94.82%;
+  bottom: 95.69%;
+  left: 3.91%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.accountInformationH1,
+.newAccountH1 {
+  margin: 0;
+
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+}
+.newAccountH1 {
+  top: 88px;
+  left: 69.34px;
+  color: #3781d8;
+}
+.accountInformationH1 {
+  top: 158px;
+  left: 531px;
+}
+.siteInformationH1 {
+  /* position: absolute; */
+  top: 552px;
+  left: 555px;
+  display: inline-block;
+}
+.alternateTrainingLocations,
+.billingInformationH1,
+.siteInformationH1 {
+  margin: 0;
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  font-family: inherit;
+}
+.billingInformationH1 {
+  /* position: absolute; */
+  top: 946px;
+  left: 543px;
+  display: inline-block;
+}
+.alternateTrainingLocations {
+  top: 1321px;
+  left: 479px;
+}
+.accountMainContact,
+.alternateTrainingLocations,
+.removeA {
+  /* position: absolute; */
+  display: inline-block;
+}
+.accountMainContact {
+  margin: 0;
+  top: 1632px;
+  left: 511px;
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  font-family: inherit;
+}
+.removeA {
+  text-decoration: none;
+  top: 1516px;
+  left: 1088px;
+  font-size: 12px;
+  font-weight: 300;
+  color: #d84037;
+}
+.textFieldFormGroup,
+.textFieldFormGroup1,
+.textFieldFormGroup2,
+.textFieldFormGroup3 {
+  width: 248px;
+  border: 0;
+  background-color: transparent;
+  /* position: absolute; */
+  top: 217px;
+  left: 85px;
+}
+.textFieldFormGroup1,
+.textFieldFormGroup2,
+.textFieldFormGroup3 {
+  top: 604px;
+  left: 104px;
+}
+.textFieldFormGroup2,
+.textFieldFormGroup3 {
+  top: 1082px;
+  left: 109px;
+}
+.textFieldFormGroup3 {
+  top: 1391px;
+}
+.textFieldFormGroup4,
+.textFieldFormGroup5,
+.textFieldFormGroup6,
+.textFieldFormGroup7 {
+  width: 248px;
+  border: 0;
+  background-color: transparent;
+  /* position: absolute; */
+  top: 1702px;
+  left: 109px;
+}
+.textFieldFormGroup5,
+.textFieldFormGroup6,
+.textFieldFormGroup7 {
+  top: 700px;
+  left: 104px;
+}
+.textFieldFormGroup6,
+.textFieldFormGroup7 {
+  top: 1169px;
+  left: 109px;
+}
+.textFieldFormGroup7 {
+  top: 1478px;
+}
+.textFieldFormGroup10,
+.textFieldFormGroup11,
+.textFieldFormGroup8,
+.textFieldFormGroup9 {
+  width: 248px;
+  border: 0;
+  background-color: transparent;
+  /* position: absolute; */
+  top: 1789px;
+  left: 109px;
+}
+.textFieldFormGroup10,
+.textFieldFormGroup11,
+.textFieldFormGroup9 {
+  top: 1876px;
+}
+.textFieldFormGroup10,
+.textFieldFormGroup11 {
+  top: 1963px;
+}
+.textFieldFormGroup11 {
+  top: 1082px;
+  left: 901px;
+}
+.textFieldFormGroup12,
+.textFieldFormGroup13,
+.textFieldFormGroup14,
+.textFieldFormGroup15 {
+  width: 248px;
+  border: 0;
+  background-color: transparent;
+  /* position: absolute; */
+  top: 1391px;
+  left: 901px;
+}
+.textFieldFormGroup13,
+.textFieldFormGroup14,
+.textFieldFormGroup15 {
+  top: 1702px;
+}
+.textFieldFormGroup14,
+.textFieldFormGroup15 {
+  top: 796px;
+  left: 104px;
+}
+.textFieldFormGroup15 {
+  left: 368px;
+}
+.textFieldFormGroup16,
+.textFieldFormGroup17,
+.textFieldFormGroup18,
+.textFieldFormGroup19 {
+  width: 248px;
+  border: 0;
+  background-color: transparent;
+  /* position: absolute; */
+  top: 700px;
+  left: 368px;
+}
+.textFieldFormGroup17,
+.textFieldFormGroup18,
+.textFieldFormGroup19 {
+  top: 1169px;
+  left: 373px;
+}
+.textFieldFormGroup18,
+.textFieldFormGroup19 {
+  top: 1478px;
+}
+.textFieldFormGroup19 {
+  top: 1789px;
+}
+.textFieldFormGroup20,
+.textFieldFormGroup21,
+.textFieldFormGroup22,
+.textFieldFormGroup23 {
+  width: 248px;
+  border: 0;
+  background-color: transparent;
+  /* position: absolute; */
+  top: 1876px;
+  left: 373px;
+}
+.textFieldFormGroup21,
+.textFieldFormGroup22,
+.textFieldFormGroup23 {
+  top: 700px;
+  left: 632px;
+}
+.textFieldFormGroup22,
+.textFieldFormGroup23 {
+  top: 1169px;
+  left: 637px;
+}
+.textFieldFormGroup23 {
+  top: 1478px;
+}
+.textFieldFormGroup24,
+.textFieldFormGroup25,
+.textFieldFormGroup26,
+.textFieldFormGroup27 {
+  width: 248px;
+  border: 0;
+  background-color: transparent;
+  /* position: absolute; */
+  top: 1789px;
+  left: 637px;
+}
+.textFieldFormGroup25,
+.textFieldFormGroup26,
+.textFieldFormGroup27 {
+  top: 700px;
+  left: 896px;
+}
+.textFieldFormGroup26,
+.textFieldFormGroup27 {
+  top: 1169px;
+  left: 901px;
+}
+.textFieldFormGroup27 {
+  top: 604px;
+  left: 368px;
+}
+.textFieldFormGroup28,
+.textFieldFormGroup29,
+.textFieldFormGroup30,
+.textFieldFormGroup31 {
+  width: 248px;
+  border: 0;
+  background-color: transparent;
+  /* position: absolute; */
+  top: 1082px;
+  left: 373px;
+}
+.textFieldFormGroup29,
+.textFieldFormGroup30,
+.textFieldFormGroup31 {
+  top: 1391px;
+}
+.textFieldFormGroup30,
+.textFieldFormGroup31 {
+  top: 1702px;
+}
+.textFieldFormGroup31 {
+  top: 604px;
+  left: 632px;
+}
+.textFieldFormGroup32,
+.textFieldFormGroup33,
+.textFieldFormGroup34,
+.textFieldFormGroup35 {
+  width: 248px;
+  border: 0;
+  background-color: transparent;
+  /* position: absolute; */
+  top: 1082px;
+  left: 637px;
+}
+.textFieldFormGroup33,
+.textFieldFormGroup34,
+.textFieldFormGroup35 {
+  top: 1391px;
+}
+.textFieldFormGroup34,
+.textFieldFormGroup35 {
+  top: 1702px;
+}
+.textFieldFormGroup35 {
+  top: 387px;
+  left: 364px;
+}
+.dropDownDiv3 {
+  /* position: absolute; */
+  top: 218px;
+  left: 365px;
+  width: 195px;
+  height: 61px;
+}
+.dropDownDiv4,
+.dropDownDiv5,
+.dropDownDiv6 {
+  /* position: absolute; */
+  top: 604px;
+  left: 896px;
+  width: 195px;
+  height: 61px;
+}
+.dropDownDiv5,
+.dropDownDiv6 {
+  top: 304px;
+  left: 365px;
+}
+.dropDownDiv6 {
+  left: 85px;
+}
+.dropDownDiv10,
+.dropDownDiv7,
+.dropDownDiv8,
+.dropDownDiv9 {
+  /* position: absolute; */
+  top: 304px;
+  left: 640px;
+  width: 195px;
+  height: 61px;
+}
+.dropDownDiv10,
+.dropDownDiv8,
+.dropDownDiv9 {
+  left: 906px;
+}
+.dropDownDiv10,
+.dropDownDiv9 {
+  top: 389px;
+  left: 85px;
+}
+.dropDownDiv10 {
+  top: 218px;
+  left: 640px;
+}
+.button,
+.button1,
+.frameFormGroup {
+  width: 161px;
+  /* position: absolute; */
+  top: 242px;
+  left: 906px;
+}
+.button1,
+.frameFormGroup {
+  width: 135px;
+  left: 1081px;
+}
+.frameFormGroup {
+  width: 576px;
+  top: 386px;
+  left: 640px;
+}
+.toggleB {
+  /* position: absolute; */
+  top: 0;
+  left: 3.17%;
+  display: inline-block;
+}
+.groupFormControlLabel {
+  /* position: absolute; */
+  height: 55.56%;
+  width: 100%;
+  top: 44.44%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.toggleDiv,
+.toggleDiv1,
+.toggleDiv2,
+.toggleDiv3 {
+  /* position: absolute; */
+  top: 796px;
+  left: 646px;
+  width: 63px;
+  height: 63px;
+}
+.toggleDiv1,
+.toggleDiv2,
+.toggleDiv3 {
+  top: 984px;
+  left: 109px;
+}
+.toggleDiv2,
+.toggleDiv3 {
+  top: 796px;
+  left: 764px;
+}
+.toggleDiv3 {
+  top: 984px;
+  left: 255px;
+}
+.buttonBsButton,
+.toggleDiv4,
+.toggleDiv5 {
+  width: 161px;
+  /* position: absolute; */
+  top: 1504px;
+  left: 901px;
+}
+.toggleDiv4,
+.toggleDiv5 {
+  top: 1875px;
+  width: 63px;
+  height: 63px;
+}
+.toggleDiv5 {
+  top: 1963px;
+  left: 635px;
+}
+.buttonBsButton1,
+.buttonBsButton2 {
+  width: 222px;
+  /* position: absolute; */
+  top: 2113px;
+  left: 636px;
+}
+.buttonBsButton2 {
+  left: 365px;
+}
+.newAccount {
+  position: relative;
+  background-color: #f6f6f6;
+  width: 100%;
+  height: 2550px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-100);
+  font-family: var(--font-inter);
+}
+.bottom-border-blue {
+  border-bottom: 5px solid red !important;
+}
+.textlabel{
+  font-weight: 600;
+}
+.ddLabel {
+  margin-top: 8px;
+}

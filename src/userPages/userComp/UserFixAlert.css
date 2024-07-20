@@ -1,0 +1,104 @@
+.UserTrainingNewPage{
+    display: flex;
+    flex-direction: column;
+    width: 1520px;
+    /* background-color: #5CB200; */
+}
+.TopLeftContainer{
+    display: flex;
+    flex-direction: column;
+}
+.BackContainerDiv{
+    display: flex;
+    width: 199px;
+height: 20px;
+margin-top: 5px;
+margin-left: 62px;
+cursor: pointer;
+}
+.BackArrow{
+    width: 19.74959659576416px;
+height: 19.999998092651367px;
+left: 4.125px;
+color: #0C71C3;
+margin-top: 4px;
+}
+.BackText{
+    width: 56px;
+/* height: 29px; */
+top: 2px;
+left: 17px;
+font-family: Arimo;
+font-size: 19px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+Color: #0C71C3;
+margin-top: 0px;
+margin-left: 1px;
+}
+.NewTrainingText{
+    width: 250px;
+height: 46px;
+top: 29px;
+font-family: Arimo;
+font-size: 28px;
+font-weight: 700;
+line-height: 46px;
+letter-spacing: 0em;
+text-align: left;
+color: #000000;
+margin-left: 69px;
+}
+.GeneralInformationContainer{
+    display: flex;
+    flex-direction: column;
+    margin: 62px !important;
+}
+.GeneralInformationText{
+    margin-left: 0px;
+    font-family: Arimo;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(12, 113, 195, 1);
+}
+.DataGridContainer{
+    width: fit-content;
+}
+.Column1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.HeaderCell{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.OutlineIcon{
+    margin-left: 240px;
+    /* margin-top: 0px; */
+}
+.CustomCell{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.ContactStatusDropDownIcon{
+    width: 25px;
+    height: 25px;
+}
+/* .ContactStatusToggle{
+    width: 49px;
+    height: 40px;
+    border-radius: 15px;
+} */
+.FormSelect {
+    border: 0px;
+    background-color: transparent;
+}
+
+.RightDivCancelSubmitDiv1{
+    margin-left: 1320px !important;
+}

@@ -1,0 +1,172 @@
+#instructor-modal.full-width-modal,
+.full-width-modal,
+.modal-240w {
+    width: 100% !important;
+    // max-width: 70% !important;
+
+}
+
+#instructor-modal {
+    max-width: 70% !important;
+}
+
+
+#instructor-modal {
+
+    .modal-container {
+        top: 0;
+        background-color: #f1f1f1;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .my-modal-section {
+        margin: 0px auto;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: white;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    table{
+        th{
+            background-color: #999999;
+            padding: 10px 20px;
+        }
+        td{
+            padding: 10px 20px;
+        }
+    }
+    h2 {
+        margin: 20px 0px;
+        font-weight: 600;
+    }
+
+    /* upper div  */
+    .my-modal-section .upper-div {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .my-modal-section .instructors {
+        width: 30%;
+        border: 2px solid #6f9cc2;
+        min-height: 400px;
+    }
+
+     .my-modal-section .selected-instructors {
+        width: 50%;
+        border: 2px solid #6f9cc2;
+        min-height: 400px;
+    }
+
+    ul li {
+        list-style: none;
+        border: 1px solid #6f9cc2;
+        padding: 5px 8px;
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+    ul li:nth-child(2n-1) {
+        background-color: #e4e4e4;
+    }
+
+    ul li.title {
+        background-color: #999999;
+        font-weight: 700;
+    }
+
+    .upper-div .btns {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        // justify-content: space-between;
+        cursor: pointer;
+        gap: 14px;
+        height: 30px;
+        line-height: 30px;
+    }
+
+    .upper-div .btns .buttons {
+        // padding: 1px 8px;
+        color: white;
+        font-weight: 400;
+        outline: none;
+        border: none;
+        // margin: 10px 0px;
+    }
+
+    .upper-div .btns .select-btn {
+        // background-color: #fff;
+        color: #0C71C3;
+        font-size: 50px;
+    }
+
+    .upper-div .btns .elemenate-btn {
+        // background-color: #fff;
+        color: #E40000;
+        font-size: 70px;
+        margin-top: -10px;
+    }
+
+    /* lower div  */
+    .lower-div {
+        margin: 20px 0px;
+    }
+
+    .my-modal-section .lower-div button {
+        padding: 8px 10px;
+        font-size: 18px;
+        font-weight: 600;
+        margin: 0px 10px;
+        color: white;
+        outline: none;
+        cursor: pointer;
+
+        border: none;
+    }
+
+    .instructors>ul,
+    .selected-instructors>ul {
+        padding: 0px;
+        width: 100%;
+    }
+
+    .Cancel-btn {
+        background-color: #8e0100;
+        color: #fff;
+        border: none;
+        padding: 10px 15px;
+
+    }
+
+    .submit-btn {
+        background-color: #59b400;
+        color: #fff;
+        border: none;
+        padding: 10px 15px;
+    }
+
+    .checkbox {
+        label {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+    }
+
+    // input[type="checkbox"]{
+    //   display: none;
+    // }
+
+
+}
+
+.checkbox {
+    cursor: pointer;
+}

@@ -1,0 +1,189 @@
+.UserTrainingNewPage{
+    display: flex;
+    flex-direction: column;
+    width: 1520px;
+    /* background-color: #5CB200; */
+}
+.TopLeftContainer{
+    display: flex;
+    flex-direction: column;
+}
+.BackContainerDiv{
+    display: flex;
+    width: 199px;
+height: 20px;
+margin-top: 5px;
+margin-left: 62px;
+}
+.BackArrow{
+    width: 19.74959659576416px;
+height: 19.999998092651367px;
+left: 4.125px;
+color: #0C71C3;
+margin-top: 4px;
+}
+.BackText{
+    width: 56px;
+/* height: 29px; */
+top: 2px;
+left: 17px;
+font-family: Arimo;
+font-size: 19px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+Color: #0C71C3;
+margin-top: 0px;
+margin-left: 1px;
+}
+.NewTrainingText{
+    width: 250px;
+height: 46px;
+top: 29px;
+font-family: Arimo;
+font-size: 28px;
+font-weight: 700;
+line-height: 46px;
+letter-spacing: 0em;
+text-align: left;
+color: #000000;
+margin-left: 69px;
+}
+
+.NewTraingdetailsContainer{
+    display: flex;
+    width: Hug (1,786px);
+height: Hug (69px);
+top: 253px;
+left: 55px;
+gap: 21px;
+/* background-color: #0C71C3; */
+margin-left: 62px;
+margin-top: 55px;
+margin-right: 40px;
+}
+.CertifyAgencyDiv{
+    width: fit-content;
+/* height: 69px; */
+}
+.CertifyAgencyDropdownInput{
+    width: 210px;
+}
+.NewTrainingContainerAllText{
+    font-size: 15px;
+    font-weight: 600;
+}
+.ClassesDiv{
+    width: fit-content;
+    /* height: 89px; */
+    
+}
+.ClassDropdownInput{
+    width: 170px;
+}
+.Class#Div{
+    width: fit-content;
+    /* height: 89px; */
+}
+.Class#DivInput{
+    width: 120px;
+}
+.StatusDiv{
+    width:fit-content;
+/* height: 89px; */
+
+}
+.StatusDropdownInput{
+    width: 150px;
+}
+.ClassDateDiv{
+    display: flex;
+    width: Hug (213px);
+/* height: Hug (89px); */
+gap: 21px;
+}
+.ClassDateInput{
+    width: 120px;
+}
+.ClassDateCalender{
+    min-width: 30px;
+    width: fit-content;
+    margin-top: 26px;
+   color: rgba(12, 113, 195, 1);
+
+}
+.ClassTimeDiv{
+    width: 137px;
+/* height: 89px; */
+
+}
+.ClassTimeDivInput{
+    width: 97px;
+    /* border-width: 1px; */
+    border-color: rgba(153, 153, 153, 1);
+}
+.InstructorNameDiv{
+    width: 248px;
+/* height: 89px; */
+
+}
+.AddStudentsDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 9px;
+    margin-left: 62px;
+}
+.AddStudentIcon{ 
+   Color: #0C71C3;
+}
+.AddStudentsText{
+    width: 151px;
+height: 29px;
+left: 34px;
+    font-family: Arimo;
+font-size: 20px;
+font-weight: 400;
+line-height: 39px;
+letter-spacing: 0em;
+text-align: left;
+Color: #0C71C3;
+margin-left: 5px;
+}
+
+.CancelSubmitDiv{
+    width: 200px;
+height: 30px;
+top: 858px;
+margin-top: 250px;
+margin-left: 1310px;
+}
+.CancelButton{
+    width: 75px;
+    height: 30px;
+    border-radius: 5px;
+    font-family: Arimo;
+font-size: 18px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+background: #8D181B;
+margin: 5px;
+}
+.SubmitButton{
+    width: 75px;
+    height: 30px;
+    border-radius: 5px;
+    background: #5CB200;
+font-family: Arimo;
+font-size: 18px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+/* background: #FFFFFF; */
+margin: 5px;
+
+}

@@ -1,0 +1,130 @@
+.heading{
+    color: rgba(12, 113, 195, 1);
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 37px;
+}
+
+.dx-header-row td{
+    background: #999999;
+    border-top: 3px solid #0C71C3 ;
+    color: black;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 29px;
+}
+.dx-datagrid-headers .dx-datagrid-table .dx-row > td {
+    border-bottom: none;
+}
+.dx-datagrid-borders .dx-datagrid-rowsview, .dx-datagrid-headers + .dx-datagrid-rowsview, .dx-datagrid-rowsview.dx-datagrid-after-headers {
+    border-top: none;
+}
+.dx-datagrid .dx-column-lines > td , .dx-datagrid .dx-row-alt > td, .dx-datagrid .dx-row-alt > tr > td {
+    border-right: 3px solid #0C71C3;
+    color: black;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+}
+.dx-datagrid .dx-row-alt > td, .dx-datagrid .dx-row-alt > tr > td {
+    background-color: #E4E4E4;
+    border-top: 1px solid #f5f5f5;
+    border-bottom: 1px solid #f5f5f5;
+}
+.site-title-btn{
+    position: relative;
+}
+
+.site-title-btn .btn-section{
+    position: absolute;
+    right: 0px;
+    top:0px;
+}
+
+
+
+
+
+
+.aed-title{
+    /* font-family: 'Arimo'; */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 46px;
+    text-align: center;
+
+}
+.thread-style {
+    background-color: #aaa; /* Gray background color */
+  }
+  
+  .thread-style th,
+  .thread-style td {
+    border: 1px solid #000; /* Border style */
+
+  }
+
+/* Table.css */
+.bordered-table {
+    border-collapse: collapse;
+    border: 1px solid black; /* Border for the entire table */
+  }
+  
+  .bordered-table tr:nth-child(even) {
+    background-color: #eee; /* Light gray color for even rows */
+  }
+  
+  .bordered-table th,
+  .bordered-table td {
+    border: 1px solid black; /* Border for table cells */
+    padding: 8px;
+  }
+  
+  .bold-text {
+    font-weight: bold;
+    font-Size:25px ;
+    padding-top:15px ;
+  }
+  .container {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .transparent-button {
+    background-color: transparent;
+    color: blue;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  .pointer{
+    cursor: pointer;
+  }
+
+  .downarrow svg{
+    rotate: 90deg;
+  }
+
+  .uparrow svg{
+    rotate: 270deg;
+  }
+
+  .inside-td{
+    display: flex;
+    justify-content: space-between;;
+  }
+
+
+  .site-title{
+    margin-top: 2rem;
+    color:  #0C71C3;
+    font-weight : 700;
+    font-size: 24px;
+    line-height: 34.5px;
+  }

@@ -1,0 +1,122 @@
+.calendar-container{
+
+padding: 50px 45px 0 45px;
+
+.rbc-event{
+    background-color:  transparent !important;
+}
+
+.rbc-btn-group{
+    // display: none !important;
+}
+
+.rbc-btn-group{
+    align-items: center;
+    gap: 10px;
+}
+
+.select-box{
+    width: 100px;
+    display: flex;
+    position: relative;
+    span {
+        position: absolute;
+        right: 20px;
+        top: 2px;
+        width: 10px;
+        z-index: 1;
+    }
+    select{
+        background-color: transparent;
+        z-index: 2;
+        &:active, &:focus{
+            box-shadow: none;
+            outline: none;
+        }
+    }
+}
+
+.rbc-header{
+    background-color: #999999;
+    color: #fff;
+    border: 2px solid #0C71C3;
+    padding: 5px;
+}
+
+.rbc-toolbar-label{
+    color: #0C71C3;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+
+.rbc-day-bg{
+    // border: #0C71C3;
+    border: 2px solid #0C71C3;
+}
+
+.rbc-btn-group>span{
+    font-weight: 700;
+}
+
+.rbc-off-range-bg{
+    background-color: #fff;
+}
+.rbc-off-range{
+color: rgba(0, 0, 0, 0.87);
+}
+
+.rbc-btn-group > select{
+    border: 2px solid #0C71C3;
+
+    &:active{
+        outline: none;
+        box-shadow: none;
+    }
+    
+}
+
+.carat{
+    // display: inline-block;
+    // width: 0;
+    // height: 0;
+    // margin-left: 2px;
+    // vertical-align: middle;
+    // border-top: 4px dashed;
+    // border-top: 4px solid\9;
+    // border-right: 4px solid transparent;
+    // border-left: 4px solid transparent;
+  }
+.rbc-btn-group > .btn{
+    background-color: #999999;
+    color: #fff;
+    border: 3px solid #0C71C3;   
+}
+.event-content{
+    // padding: 5px 0px;
+    p{
+        display: inline-block;
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden !important;
+        text-overflow: ellipsis;
+        margin: 6px 0px 0px 0px;
+        padding: 0px 10px;
+        font-size: 15px;
+    }
+}
+
+
+}
+
+.calendar-container .select-box {
+    min-width: 200px;
+}
+
+.calendar-container .select-box select {
+    padding-right: 25px;
+}
+
+.calendar-container .select-box span {
+    top: 0px;
+}
