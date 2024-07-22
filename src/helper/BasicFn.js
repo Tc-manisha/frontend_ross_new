@@ -412,7 +412,7 @@ export const AccountContactDetails = async (acid) => {
 export const ModalAccReps = async () => {
   let result = await CallGETAPI("account/fetch-positions/acc-reps");
   if (result?.status) {
-    return result?.data?.data?.positions;
+    return result?.data?.positions;
   }
   return false;
 };
@@ -467,7 +467,7 @@ export const AssignContectRepList = async (id) => {
   let result = await CallGETAPI("account/assign-acc-contact-list/" + id);
   console.log({result})
   if (result?.status) {
-    return result?.data?.data;
+    return result?.data?.data?.accountContactList;
   }
   return false;
 };
