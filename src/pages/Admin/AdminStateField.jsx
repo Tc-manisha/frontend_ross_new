@@ -35,6 +35,7 @@ const AdminStateField = ({
   // get state value
   const getState = (value) => {
     if (selectedCountry == 231) {
+      console.log({states})
       return states.find((state) => state.abbreviation === value.toUpperCase());
     } else {
       return states.find(
@@ -86,8 +87,9 @@ const AdminStateField = ({
   // fetch country
   const fetchCountry = async (id) => {
     const results = await CallGETAPI("account/get-state-by-country/" + id);
+    console.log({results})
     if (results?.status) {
-      return results?.data?.data;
+      return results?.data?.data?.state;
     }
   };
 

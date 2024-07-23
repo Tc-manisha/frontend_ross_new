@@ -459,6 +459,7 @@ const AdminAccount = () => {
 
     // get country
     const countries = await GetCountries();
+    console.log({countries})
     if (countries?.status) {
       let countriesData = prepareOptions(
         countries?.data,

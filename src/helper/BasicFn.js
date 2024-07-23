@@ -13,7 +13,9 @@ import moment from "moment";
 export const FetchDropDowns = async () => {
   let url = "account/account-dropdowns";
   let res = await CallGETAPI(url);
+
   if (res?.data?.status) {
+   
     return res?.data?.data;
   }
   return "";
@@ -22,8 +24,9 @@ export const FetchDropDowns = async () => {
 export const ProductsDropDown = async () => {
   let url = "account/product-dropdown";
   let res = await CallGETAPI(url);
+  console.log("mona",res.data)
   if (res?.data?.status) {
-    return res?.data?.data;
+    return res?.data?.products;
   }
   return "";
 };
@@ -442,6 +445,7 @@ export const SiteRepsDropDown = async () => {
 export const ContactList = async (params) => {
   // params must be Account ID
   let result = await CallGETAPI("account/account-contacts-list/" + params);
+  console.log({result})
   if (result?.status) {
     return result?.data?.data?.contact_list;
   }
@@ -695,8 +699,9 @@ export const EditSiteDetailsSingle = async (id) => {
 
 export const GetCountries = async () => {
   let res = await CallGETAPI(`account/get-country`);
+  console.log("test",res?.data?.data)
   if (res?.status) {
-    return res?.data;
+    return res?.data?.data?.country; 
   }
   return false;
 };

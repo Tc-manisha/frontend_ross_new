@@ -96,24 +96,28 @@ export default function Login(isUser) {
       ip_address: systemIp,
       source_os: os,
     };
-    let response = await CallPOSTAPI("auth/login", senData);
-    console.log(response.data)
-let result=response.data || {};
+    let result = await CallPOSTAPI("auth/login", senData);
+//     console.log(response.data)
+// let result=response.data || {};
+
+
+
     if (result.status) {
       //  is 2FA
-
-      if (result?.data?.is2fa) {
+   
+      if (result?.data?.data?.is2fa) {
+     
         navigate("/verify-otp", {
-          state: { message: result.data.msg, isLogin: 1 },
+          state: { message: result?.data?.data?.msg, isLogin: 1 },
         });
         return;
       }
 
-			if (result.data.status) {
+			if (result?.status) {
 				// const token = result.data.data;
 				// const rtoken = result.data.data;
-				let token = result?.data?.token;
-				let rtoken = result?.data?.refreshtoken;
+				let token = result?.data?.data?.token;
+				let rtoken = result?.data?.data?.refreshtoken;
 				localStorage.setItem('ross_rtoken', rtoken);
 				localStorage.setItem('ross_token', token)
 				dispatch(removeListingFilter());
@@ -210,7 +214,7 @@ let result=response.data || {};
         setLoading(false);
         return;
       } else {
-        setFormMsg({ type: false, msg: result.data.msg });
+        setFormMsg({ type: false, msg: result?.msg });
         setLoading(false);
         return;
       }
